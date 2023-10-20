@@ -63,7 +63,7 @@ INSERT INTO `course` (`CourseID`, `CourseName`, `DepartmentName`) VALUES
 ('CSC2210', 'OBJECT ORIENTED PROGRAMMING 2', 'CSE'),
 ('CSC2211', 'ALGORITHMS', 'CSE'),
 ('CSC3112', 'SOFTWARE ENGINEERING', 'CSE'),
-('CSC321CSC3', 'WEB TECHNOLOGIES', 'CSE'),
+('CSC3215', 'WEB TECHNOLOGIES', 'CSE'),
 ('CSC4118', 'COMPUTER GRAPHICS', 'CSE');
 
 -- --------------------------------------------------------
