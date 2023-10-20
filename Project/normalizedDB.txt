@@ -7,7 +7,7 @@ Table 2: course
 • DepartmentName (Foreign Key, references Department)
 
 Table 3: section
-• SectionID (Primary Key)
+• SectionID (Foreign Key)
 • CourseID (Foreign Key, references Course)
 • Sec
 • startTime

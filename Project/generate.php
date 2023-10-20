@@ -100,6 +100,7 @@ if (isset($_POST['btnGenerate'])) {
                         WHERE FacultyID = '$facultyID'
                         AND Day = '$sectionDay'
                         AND ((StartTime < '$sectionEndTime' AND EndTime > '$sectionStartTime'))";
+                        
                         $clashResult = mysqli_query($conn, $clashQuery);
                         $totalHoursQuery = "SELECT SUM(TIME_TO_SEC(TIMEDIFF(EndTime, StartTime))) AS TotalHours 
                         FROM section WHERE FacultyID = '$facultyID'";
