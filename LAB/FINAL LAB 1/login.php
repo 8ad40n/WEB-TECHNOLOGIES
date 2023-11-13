@@ -26,10 +26,6 @@ if(isset($_POST['login']))
         {
             header("location: Dashboard.php");
         }
-        // elseif($user=="Faculty")
-        // {
-        //     header("location: FacultyHome.php");
-        // }
 
     }
     else
